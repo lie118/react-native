@@ -6,6 +6,7 @@
  */
 
 import React from 'react';
+import DimensionsTest from './src/DimensionsTest';
 import FlexBoxFiled from './src/FlexBox';
 import StyleSheetFiled from './src/StyleSheet';
 
@@ -14,6 +15,7 @@ function App(): JSX.Element {
     <>
       <StyleSheetFiled />
       <FlexBoxFiled />
+      <DimensionsTest />
     </>
   );
 }
